@@ -1,0 +1,258 @@
+
+div,p,body,header,footer,section,article,nav,h1,h2,h3,h4 { 
+margin: 0; 
+padding: 0; 
+} 
+
+img { 
+border: none; 
+margin: 0; 
+padding: 0; 
+}
+
+/*html selectors*/
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  background-color: #ededed;
+}
+
+/*-- I took 2 L's on purpose --*/
+
+.textallign h2 {
+  text-align: center;
+  color: #ed3e3e;
+  margin-top: 500px;
+}
+
+.title {
+  text-align: center;
+  color: #fad457;
+  margin-top: 10px;
+  font-family: 'Anton', sans-serif;
+  font-size: 46px;
+}
+
+.hidden {
+  display: none;
+}
+
+.container
+{
+  width: 980px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.mainHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.logoHeader
+{
+  width: 150px;
+  height: 150px;
+  margin-left: 50px;
+}
+
+#logo {
+  width: 100px;
+  height: 100PX;
+  margin-top: 15px;
+}
+
+#mainNav 
+{
+  margin-left: auto;
+  width: 500px;
+  justify-content:left;
+  height: 25px;
+  margin-top: 50px;
+  margin-left: auto;
+}
+
+.selected
+{
+  padding: 5px 0px 5px 0px;
+  background-color: #ddeff7;
+}
+
+.fosterscollection 
+{
+  margin-top: 10px;
+
+}
+
+.fosterscollection p
+{
+  line-height: 42px;
+  color: #fff;;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #0843a1;
+}
+
+
+ .histoy p {
+  line-height: 42px;
+  color: #fff;;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #0843a1;
+ }
+
+.BigButton
+{
+  display: block;
+  width: 100px;
+  padding: 15px;
+  color: #fad457;
+  background-color: #0843a1;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Anton', sans-serif;
+}
+
+.button {
+  color:#0843a1;
+  padding: 5px 10px;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+  text-decoration:none;
+  font-family: 'Anton', sans-serif;
+}
+
+.button:hover
+{
+  background-color: #90b7f5;
+  text-decoration: underline;
+}
+
+ .img-container {
+ text-align: center;
+ display: block;
+ margin-top: 50px;
+ }
+
+ #mainContact {
+  width: 940px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+}
+
+#mainContact h2 {
+  font-size: 30px;
+  color: #fff;
+  background-color: #0843a1;
+  margin-bottom: 40px;
+  padding: 8px 0px 8px 5px;
+  width: 940px;
+   text-align: center
+}
+
+#contactArea {
+  width: 469px;
+  border-right: solid 1px #0843a1;
+  margin-bottom: 30px;
+}
+
+
+#contactText {
+  font-size: 24px;
+  margin-bottom: 25px;
+  width: 360px;
+}
+
+#contactForm {
+  margin-top: 25px;
+}
+
+input, textarea  {
+  font-size: 11px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 300px;
+  height: 10px;
+  background-color: #efefef;
+  display: block;
+  border: 1px solid #999;
+  color: #333;
+}
+
+#comments {
+  width: 360px;
+  height: 200px;
+}
+
+#submit {
+  display: block;
+  width: 75px;
+  height: 30px;
+  text-align: center;
+  margin-top: 30px;
+  color: #FFF;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #0843a1;
+  font-size: 14px;
+  border: 1px solid #fff;
+}
+
+#mapArea {
+  width: 380px;
+  margin-left: 90px;
+}
+
+
+#mapArea h3 {
+  font-size: 21px;
+  margin-top: 0;
+  color: #2073a8;
+}
+
+#mapArea ul {
+  list-style-type: none;
+  padding: 0;
+} 
+
+.footerNav{
+  margin-left: 545px;
+}
+
+.footerNav ul li a {
+  color: #333;
+}
+
+.footerNav ul li a:hover {
+  color: #999;
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
